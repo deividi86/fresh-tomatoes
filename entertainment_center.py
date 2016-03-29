@@ -1,7 +1,7 @@
 import media
 import fresh_tomatoes
 
-#Creating the movies instances
+# Creating the movies instances
 toy_story = media.Movie("Toy Story",
                         "Toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/pt/d/dc/Movie_poster_toy_story.jpg",
@@ -38,10 +38,8 @@ little_rascals = media.Movie("Little Rascals",
                              "https://www.youtube.com/watch?v=MsV6r1nbSGk",
                              2)
 
-#Adding movies instances to array to be presented on the web page
+# Adding movies instances to array to be presented on the web page
 movies = (toy_story, avatar, django, titanic, inside_out, little_rascals)
 
-#Open movies pages on fresh tomatoes front end module
+# Open movies pages on fresh tomatoes front end module
 fresh_tomatoes.open_movies_page(movies)
-
-
