@@ -5,6 +5,6 @@
 
 How to run:
 
-1. git clone 
-2. open python shell
-2. execfile('\\\\directory\\\\entertainment_center.py')
+1. Clone the repository using: git clone git@github.com:deividi86/fresh-tomatoes.git
+2. Open a Terminal window, navigate to the project folder
+3. Type: python entertainment_center.py
